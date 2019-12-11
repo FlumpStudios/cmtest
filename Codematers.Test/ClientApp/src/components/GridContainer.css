@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Grotesque MT std - Extra Condensed';
+    src: local('GrotesqueMTStd-ExtraCond'), url(../assets/fonts/GrotesqueMTStd-ExtraCond.otf) format('otf');
+}
+
+.gps {
+    background-image: url("../assets/images/statsbg.jpg");
+    height: 170px;
+}
+
+.events-complete {
+    background-image: url("../assets/images/bg_small_stat_01.jpg");
+    height: 170px;
+}
+
+.distance-covered {
+    background-image: url("../assets/images/bg_small_stat_02.jpg");
+    height: 170px;
+}
+
+.track {
+    background-image: url("../assets/images/bg_large_stat.jpg");
+    height: 340px;
+}
+
+.buy-now {
+    background-image: url("../assets/images/ad_f12018_buyNow.jpg");
+    height: 170px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+    font-family: 'Grotesque MT std - Extra Condensed';
+    vertical-align: bottom;
+    bottom: 2px;
+}
+
+.grid-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: 'Grotesque MT std - Extra Condensed';
+    color: #f2f2f2;
+    text-align: center
+}
+
+.site-link {
+    color: #f2f2f2;
+}
+
+.site-link:hover {
+    color: lightgray;
+}

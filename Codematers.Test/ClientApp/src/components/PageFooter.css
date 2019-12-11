@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=BenchNine&display=swap');
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #101112;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: "BenchNine";
+    padding: 6px
+}
+
+footer>div {
+    margin-top: 15px;
+}
+
+.company-logo {
+    float: left;
+    max-height: 50px;
+}
+
+.pegi-logo {
+    float: right;
+    max-height: 50px;
+}

@@ -1,0 +1,44 @@
+﻿@font-face {
+    font-family: 'Grotesque MT std - Extra Condensed';
+    src: local('GrotesqueMTStd-ExtraCond'), url(../assets/fonts/GrotesqueMTStd-ExtraCond.otf) format('otf');
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+html {
+    background: e10600;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.navbar {
+    background: #E10600;
+    color: #f2f2f2;
+    font-family: 'Grotesque MT std - Extra Condensed';
+    font-size: 30px;
+    /*I know this is icky, and if you are reading this, 
+  it means I didn't have time to come back do something nicer than use an important :(  
+  */
+    margin-bottom: 0 !important;
+}
+
+.nav-item {
+    color: #f2f2f2;
+}
+
+.nav-item:hover {
+    color: #CDCDCD
+}
